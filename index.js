@@ -27,8 +27,8 @@ alue { itemName: itemName } format:*/
 
 function viewCart() {
   //prints 'Your shopping cart is empty.' if the cart is empty
-  if(cart.length === 0) {
-    return "Your shopping cart is empty.";
+    if(cart.length === 0) {
+      return "Your shopping cart is empty.";
   }
 
 
