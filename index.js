@@ -43,7 +43,7 @@ function viewCart() {
     }
     else if (cart.length > 2) {
       //correctly prints a three-or-more-item cart
-      cart.toString()
+      cart.join(", and")
 
 
   }
