@@ -45,9 +45,9 @@ function viewCart() {
       //correctly prints a three-or-more-item cart
       for(var i = 0; i < cart.length; i++) {
         
-      
 
-      
+
+
     }
 
 
