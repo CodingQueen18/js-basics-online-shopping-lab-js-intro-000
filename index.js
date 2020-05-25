@@ -31,7 +31,7 @@ function viewCart() {
     return "Your shopping cart is empty.";
   }
 
-  
+
     //Object.assigm({}, {itemName: item, itemPrice: price})
     //correctly prints a one-item cart:
     if(cart.length === 1) {
