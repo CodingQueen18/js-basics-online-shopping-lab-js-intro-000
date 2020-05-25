@@ -44,6 +44,7 @@ function viewCart() {
     else if (cart.length > 2) {
       //correctly prints a three-or-more-item cart
       cart.join(", and")
+      return `In your cart, you have ${cart.itemName} at $${cart.itemPrice} $${cart.itemPrice}.`
 
 
   }
