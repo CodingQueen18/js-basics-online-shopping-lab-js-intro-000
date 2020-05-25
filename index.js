@@ -44,12 +44,8 @@ function viewCart() {
     else if (cart.length > 2) {
       for(var i = 0; i < cart.length; i++) {
       //correctly prints a three-or-more-item cart
-      //cart[i].join(", and")
-      //cart.toString();
-        cart[i].itemPrice += ", and";
-      //cart.splice(1, cart.length - 1, ", and")
-      //cart.join(", and")
-        return `In your cart, you have ${cart[i].itemName} at $${cart[i].itemPrice}.`
+
+      
     }
 
 
