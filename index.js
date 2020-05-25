@@ -46,6 +46,7 @@ function viewCart() {
       for(var i = 0; i < cart.length - 1; i++) {
         cart[i].itemPrice += ", and";
         cart.toString();
+        return `In your cart, you have ${cart[i].itemName} at $${cart[i].itemPrice}.`
 
       }
 
