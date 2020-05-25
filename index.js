@@ -43,7 +43,8 @@ function viewCart() {
     }
     else if (cart.length > 2) {
       //correctly prints a three-or-more-item cart
-      for(var i = 0; i < cart.length; i++) {
+      for(var i = 0; i < cart.length - 1; i++) {
+        
 
       }
 
